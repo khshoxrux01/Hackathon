@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+</head>
+<body>
+    <div class="popUp signUp" id="signup">
+        <div class="topPart">
+            <div class="backLogin">
+                <p>Ужезарегистрированы?</p>
+                <a href="./login.html">
+                    <p id="purpleFont">Войдите</p>
+                </a>
+            </div>
+        </div>
+        <div class="signBlock">
+            <div class="titlePart">
+                <h2>регистрация </h2>
+            </div>
+            <div class="infoPart1">
+                <p>Войдите с помощью других сервисов </p>
+                <div class="iconsPart">
+                    <img src="./img/Group 1669.png" alt="">
+                    <img src="./img/Group 1668.png" alt="">
+                    <img src="./img/Group 1667.png" alt="">
+                </div>
+                <form action="">
+                    <input type="email" placeholder="Электронная почта" class="signInput" required>
+                    <input type="password" placeholder="Пароль" class="signInput" required>
+                    <input type="password" placeholder="Повторите пароль" class="signInput">
+                    <label for="check">
+                        <div class="checkBlock">
+                            <input type="checkbox" id="check" checked>
+                            <div class="textPart">
+                                <p id="blackText">Вы принимаете условия</p>
+                                <p id="purpleText">Пользовательского соглашения</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="submit" id="button1" value="Зарегистрироваться"> 
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
